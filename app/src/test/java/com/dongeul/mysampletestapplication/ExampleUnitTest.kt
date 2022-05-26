@@ -2,6 +2,8 @@ package com.dongeul.mysampletestapplication
 
 import org.junit.Assert.*
 import org.junit.Test
+import java.util.*
+import kotlin.collections.ArrayList
 import kotlin.math.max
 import kotlin.math.min
 
@@ -14,7 +16,16 @@ class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
+
+        val s = Stack<Int>()
+
+        s.push(1)
+        s.push(3)
+
+        s.peek()
+
     }
+
 
 
     @Test
