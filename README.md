@@ -7,4 +7,6 @@ DSP
 
 작성언어 : 코틀린
 
-코드는 UnitTest 디렉토리 내에 존재
+app/src/test/java/com/dongeul/mysampletestapplication/
+
+디랙토리 내에 코드 
